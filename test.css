@@ -1,0 +1,15 @@
+body{
+	background-color: lightgrey;
+}
+h1{
+	font-size: 30px;
+	color: teal;
+}
+
+.big{
+	font-size: 50px;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
