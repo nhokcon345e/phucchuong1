@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    line-height: 30px;
+}
+header{
+	background-color: #F5C290;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+header h1{
+	color: #06006A;
+}
+
+header img{
+	border-radius: 170px;
+    width: 300px;
+    height: 300px;
+    border: 20px solid yellow;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto; 
+/*	Lệnh margin: 0 auto;  để căn giữa tự động một khối*/
+/*	margin: số đầu (lề trên, dưới) số sau (lề trái, phải);*/
+	padding: 0 20px 20px 100px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 30px;
+	color: blueviolet;
+}
+
+a{
+	color: darksalmon;
+}
+
+a:hover{
+	color: white;
+	background-color: darkblue;
+}
+
+footer{
+	background-color: skyblue;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	opacity: 0.5;
+	color: transparent;
+}
+
+p.caption{
+	color: grey;
+	text-align: center;
+	font-style: italic;
+	margin: 0;
+	font-size: 15px;
+	font-family: 'Times';
+
+}
